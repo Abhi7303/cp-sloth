@@ -1,0 +1,14 @@
+cat << 'EOF' > .gitignore
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs and local environment
+*.log
+.env
+EOF

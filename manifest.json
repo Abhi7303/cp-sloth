@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "CP Sloth — Lazy DSA Edge-Case & TLE Analyzer",
+  "version": "1.0.0",
+  "description": "Local Gemma-powered assistant that writes nasty competitive programming edge cases and checks for TLE so you don't have to.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:11434/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Wake Up CP Sloth",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
